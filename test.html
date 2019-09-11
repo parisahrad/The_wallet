@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test javascript </title>
+	<style>
+		#box1, #box2{
+			display: none;
+		}
+	</style>
+	<script src="js/jscommonfn.js" defer></script>
+</head>
+<body>
+    <form id="dependentOptions">
+		<div>
+		<input id="optionAid" type="radio" name="optionA" value="a">option a
+		
+		<input id="optionBid" type="radio" name="optionB" value="b">option b
+		</div>
+		
+	
+		<div id="box1">
+			<label>option2:</label>
+			<select id="optionAtype">
+				<option>aa</option>
+				<option>bb</option>
+			</select>
+		</div>
+		
+		
+		<div id="box2">
+			<label>option2:</label>
+			<select id="optionBtype">
+				<option>cc</option>
+				<option>dd</option>
+			</select>
+		</div>
+		
+		
+    </form>
+</body>
+</html>
+
